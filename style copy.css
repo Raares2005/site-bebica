@@ -1,0 +1,469 @@
+@font-face {
+    font-family: 'Black';
+    src: url('fonturi/Black.otf');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('fonturi/Bold.otf');
+}
+
+@font-face {
+    font-family: 'Semibold';
+    src: url('fonturi/Semibold.otf');
+}
+
+@font-face {
+    font-family: 'SemiboldSans';
+    src: url('fonturi/Sans-Work-Semibold.otf');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('fonturi/Medium.otf');
+}
+
+
+
+:root {
+    --brown: #6E2E04;
+    --yellow: #FFAE0B;
+    --green: #107533;
+    --white: #FFFFFF;
+    --black: #1D1B20;
+    --grey: #818181af;
+    --greyV2: #F5F5F5;
+}
+
+* {
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1{ 
+    font-family: "Bold", sans-serif;
+}
+
+h2 {
+    font-family: "Medium", sans-serif;
+}
+
+
+p {
+    font-family: "SemiboldSans", sans-serif;
+}
+
+.homepageTitle {
+    padding-left: 2rem;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+
+.produse {
+    color: rgb(249, 175, 188);
+}
+
+.locale {   
+    color: rgb(249, 118, 199);
+}
+
+.naturale {
+    color: rgb(219, 128, 191);
+}
+
+.homepageDescription {
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+ 
+
+.buyNowButton > a > img {
+   width: 16rem;
+   padding-left: 2rem;
+}
+
+.produseSection > .produse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.fructe {
+    color: var(--black);
+}
+
+.produseSection > ul  {
+    list-style: none;
+}
+
+.produseSection > .produse > li > img {
+   
+    padding: 0.8rem;
+}
+
+ul > .produseFructe > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.produseFructe > img {
+    width: 9rem;
+}
+ 
+ul > .produseLegume > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.produseLegume > img {
+    width: 9rem;
+}
+
+ul > .produseMiere > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.produseMiere > img {
+    width: 9rem;
+}
+
+ul > .produseSosuri > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.produseSosuri > img {
+    width: 9rem;
+}
+
+ul > .produseLegume > h1 {
+    text-align: center;
+}
+
+.produseLegume > img {
+    width: 9rem;
+}
+
+.produsePlanteAromatice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul > .produsePlanteAromatice > h1 {
+    text-align: center;
+    font-size: 1rem;
+    font-size: 1.5rem;
+
+}
+.produsePlanteAromatice > img {
+    width: 9rem;
+}
+
+
+ul > .produseMuraturi > h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-size: 1.5rem;
+}
+.produseMuraturi> img {
+    width: 9rem;
+}
+
+.titluTop {
+    text-align: center;
+    line-height: 4rem;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+.alegerile {
+    color: rgb(247, 149, 190);
+}
+
+.clientilor {
+    color: rgb(249, 126, 206);
+}
+
+.listaAlimenteTop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.listaAlimenteTopV2 {
+    display: none;
+}
+
+.alimenteTop > ul > li > img {
+    width: 15rem;
+}
+
+.alimenteTop > ul > li {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.subcategorie {
+    color: var(--grey);
+    margin: 0;
+}
+
+.numeProduseTop {
+    font-size: 1.4rem;
+}
+
+
+.livrareSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.livrareSection > a > .buton {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    margin-top: 4rem;
+    padding-left: 0.5rem;
+    width: 10rem;
+
+}
+
+.livrare {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 20.6rem;
+    margin-top: 3rem;
+}
+
+.alimenteVanzare {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.buyNowButton {
+    width: 15.5rem;
+}
+
+.FructeLegume {
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+.Conserve {
+    width: 10rem;
+}
+
+.servicii {
+    
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 7rem;
+}
+
+.serviciiSection {
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+}
+
+
+.livrareRapida {
+    align-items: center;
+    padding-top: 2rem;
+    flex-direction: column;
+    display: flex;
+    background-color: var(--greyV2);
+}
+
+.livrareRapida > img {
+    width: 5rem;
+}
+
+.livrareRapida > h1 {
+    text-align: center;
+    font-family: "Semibold";
+}
+
+.livrareRapida > p {
+    font-family: "Medium";
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+
+@media (min-width: 755px ) {
+    
+    .homepageTitle {
+        font-size: 4rem;
+    }
+
+    .homepageDescription {
+        font-size: 1.5rem;
+    }
+
+    .buyNowButton {
+        width: 17rem;
+    }
+
+    .produseSection > .produse > li > img {
+        
+        padding: 2rem;
+        display: flex;
+
+    }
+
+    
+
+    .produseSosuri > img {
+        margin-top: 3.4;
+    }
+
+    
+    .titluTop {
+       text-align: start;
+       padding-left: 2rem;
+       font-size: 4rem;
+    }
+
+    
+
+    .alimenteTop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alimenteTop > ul > li > img {
+        display: flex;
+        justify-self: center;
+        width: 9rem;
+
+    }
+
+    .listaAlimenteTop {
+       flex-direction: row;
+       justify-content: center;
+    }
+
+    .listaAlimenteTop > li {
+       width: 13rem;
+     }
+    
+    .listaAlimenteTopV2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;   
+        
+    }
+
+    .livrare   {
+        width: 35rem;
+    }
+
+    .Conserve {
+        width: 17rem;
+    }
+
+    .FructeLegume {
+        width: 17rem;
+    }
+
+    @media (min-width: 1281px) {
+
+        .homepageTitle {
+            font-size: 5em;
+        }
+
+
+        .homepageDescription {
+            width: 70%;
+            font-size: 1.4rem;
+        }
+
+        .buyNowButton > a > img {
+            width: 16rem;
+            padding-left: 2rem;
+        }
+
+
+        .produseSection > .produse > li > img {
+            width: 10rem;
+            
+        }
+         
+
+        .produseSection > .produse > li > h1  {
+            margin: 0px;
+            font-size: 2rem;
+        }
+
+        .titluTop {
+            
+            font-size: 5rem;
+            line-height: 5rem;
+        }
+
+        .alimenteTop > ul > li  {
+            padding: 2.5rem;
+        } 
+
+
+
+        .alimenteTop > ul > li > img {
+            width: 15rem;
+    
+        } 
+
+        .livrare   {
+            width: 40rem;
+        }
+    
+        .Conserve {
+            width: 19.5rem;
+        }
+    
+        .FructeLegume {
+            width: 19.5rem;
+        }
+
+        .servicii {
+            font-size: 3rem;
+        }
+
+        .livrareRapida > img {
+            width: 6rem;
+        }
+
+        .livrareRapida > p {
+            font-size: 1.6rem;
+        }
+
+    }
+
+
+}
+
+
